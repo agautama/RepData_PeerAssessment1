@@ -84,4 +84,8 @@ minutedata2 <- aggregate(data2$stepsII, by = list(data2$interval, data2$Wkday), 
 colnames(minutedata2) <- c("Interval","Weekday","avgSteps")
 qplot(Interval, avgSteps, data = minutedata2, geom = c("line"), facets = Weekday~.)+ggtitle("Average Steps by 5 Minute time interval")+labs(x="Interval",y="Average Steps")
 
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 1df932737a6c174628070f66f9192857f4f44041
